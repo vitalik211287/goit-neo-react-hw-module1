@@ -7,7 +7,6 @@ function Profile(props) {
     label: name[0].toUpperCase() + name.slice(1),
     value,
   }));
-  console.log(props)
   return (
     <div className={css.profile}>
       <div className={css.description}>

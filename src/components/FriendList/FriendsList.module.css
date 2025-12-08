@@ -1,0 +1,41 @@
+.list {
+  justify-content: center;
+  gap: 16px;
+  display: flex;
+  padding: 0;
+}
+
+.item {
+  text-align: center;
+  list-style: none;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.status {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0;
+}
+
+.avatar {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
