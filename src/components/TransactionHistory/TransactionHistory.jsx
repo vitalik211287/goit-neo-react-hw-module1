@@ -3,12 +3,12 @@ import Transaction from "./Transaction";
 
 function TransactionHistory({ transactions }) {
   return (
-    <table className={css.table}>
+    <table className={css.Table}>
       <thead>
-        <tr className={css.tr}>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+        <tr className={css.Th}>
+          <th className={css.Th}>Type</th>
+          <th className={css.Th}>Amount</th>
+          <th className={css.Th}>Currency</th>
         </tr>
       </thead>
 
